@@ -74,7 +74,32 @@ img {
 
 
 @media screen and (max-width: 420px) {
-  body {
-    background-color: aqua;
+  .row {
+    width: 100%;
+  }
+  
+  #lezioni .row {
+    background-color: #f2f2cd;
+    margin-top: 0;
+  }
+
+  #lezioni .row>.right {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  #lezioni .row>.right,
+  #lezioni .row>.left {
+    float: none;
+    width: 95%;
+    margin: auto;
+  }
+
+  img {
+    height: 100px;
+  }
+
+  h3 {
+    margin: 0;
   }
 }
